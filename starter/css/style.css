@@ -1,12 +1,14 @@
-* {
+ {
   box-sizing: border-box;
+
 }
 
 h1{
 object-position: center; 
   box-shadow: #070606;
   text-align:center;
-  font-family:fantasy;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 50px;
  }
 p {text-align:center;
   font-family:Helvetica, sans-serif;
@@ -15,7 +17,9 @@ p {text-align:center;
   font-weight:normal;
   letter-spacing:2px;
   color:#f8faf0;
- background-color:#070606;} 
+  background-color:none;
+  margin: 150px;
+} 
 
 h2{display: flex;
   justify-content: space-around;
@@ -24,7 +28,6 @@ box-shadow: #070606;
 text-align:center;
 font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif}
 
-/* #page-wrapper */
 h1 
 h2,
 p 
@@ -34,7 +37,9 @@ p
   font-weight:normal;
   letter-spacing:2px;
   color:rgb(229, 243, 34);
-  background-color:#070606;}
+  background-color:none;
+margin: 20px;
+}
 h3,
 h4,
 h5,
@@ -43,15 +48,18 @@ h6 {
 }
 
 p {
-  margin: 0;
+  margin: 50px;
 }
 
     body {
+   
       margin: 0;
       height: 100vh;
       background-image: url(/Users/44751/Downloads/images/background.jpg);
-      color: rgb(13, 14, 13);
-      font: 
+      color: rgb(191, 206, 191); 
+    }
+    p {
+      font-size: 15px;
     }
     
 
@@ -61,34 +69,39 @@ nav {
     justify-content: space-around;
     background-color:none
 }
-
 .center {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%
-
-
+  width: 50%;
 }
+.section {
+  display: flex;
+  justify-content: space-around;
+}
+  
 .container{
 display: flex;
 flex-wrap: wrap;
 width: 700px;
 }
-.test{
+/* .test{
   width: 200px;
   height: 200px;
   border: 2px solid black; 
   background-color: #eb7132;
   margin: 10px 10px 10px 10px;
 
-}
+} */
 .con {
+  display: flex;
+  justify-content: center;
   position: relative;
-  width: 300px;
-  height: 100px;
+  width: 50px;
+  height: 50px;
   border: none;
   margin:  10px 10px 10px 10px;
+  
 }
 
 #about {
@@ -100,30 +113,31 @@ width: 700px;
   border-radius: 4px;
   padding: 5px;
   width: 50px;
-  position: absolute;
+  position:relative;
   top: 30px;
-  left: 120px;
+  left: 250px;
 }
 #lnkd {
   border: none;
   border-radius: 4px;
   padding: 5px;
   width: 50px;
-  position: absolute;
+  position: relative;
   top: 30px;
-  left: 120px;
+  left:5px;
 }
 #gmail {
   border: none ;
  border-radius: 4px; 
  padding: 5px; 
   width: 50px;
-  position: absolute;
+  position: relative;
   top: 30px;
-  left: 120px;
+  right: 250px;
 }
 
 #placeholder {
+  align-self: 50%;
   background-image:url(/Users/44751/Downloads/images/scarecrow.jpg) ;
   background-repeat: no-repeat;
   margin-right: 10px;
@@ -135,35 +149,38 @@ width: 700px;
     padding: 15px;
     width: 220px;
     top: 30px;
-    left: 120px
+    left: 20px
 }
 #prewrk {  
+  align-self: auto;
 background-image: url(/Users/44751/Downloads/images/batman-joker-batman-arkham-origins-wallpaper-preview.jpg); 
 background-repeat: no-repeat;
-margin-right: 10px;
+
 height: 200px;
 background-position: center;
 background-size:cover;
   border: 3px solid black;
   border-radius: 10px;
   padding: 15px;
-  width: 220px;
+  width: 500px;
   top: 30px;
   left: 120px;
 
 }
 #horiseon {
+  align-self:50%;
   background-image: url(/Users/44751/Downloads/images/artworks-jjKFFi3R1gac2jPW-nY0z8A-t500x500.jpg);
   background-repeat: no-repeat;
 height: 200px;
 background-position: center;
 background-size:cover;
+margin: 0%;
   border: 3px solid black;
   border-radius: 10px;
   padding: 15px;
   width: 220px;
   top: 30px;
-  left: 120px;
+  left: 10px;
 }
 
 img:hover  {
@@ -219,7 +236,7 @@ section {
     }
     
     a {
-      font-family: "Bungee", cursive;
+      font-family: "fantasy" , cursive;
       font-size: 2.5em;
     }
     
@@ -420,4 +437,40 @@ section {
     .link-three:hover::before {
       transform: translate(0%, 0%) scaleY(1);
     }
-    
+ 
+
+@media (min-width: 1281px) {
+  
+  
+}
+
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+  
+}
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  
+}
+
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+
+  
+}
+
+
+@media (min-width: 481px) and (max-width: 767px)and (orientation: portrait);{
+  
+  
+}
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  
+}

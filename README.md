@@ -1,2 +1,1 @@
-# portfolio
-a portfolio of completed projects to showcase my abilities
+I wanted to create a portfolio for myself that would showcase my abilities and work history. Hopefully this web page will provide any person thats interested what i am capable of and deliver a brief insight into my personality. During the process i learned how to simplify my work and also the fun of experimentation.
