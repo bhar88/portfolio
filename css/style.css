@@ -51,7 +51,7 @@ p {
    
       margin: 0;
       height: 100vh;
-      background-image: url(/Users/44751/Downloads/images/background.jpg);
+      background-image: url('../starter/images/background.jpg');
       color: rgb(191, 206, 191); 
     }
     p {
@@ -81,14 +81,6 @@ display: flex;
 flex-wrap: wrap;
 width: 700px;
 }
-/* .test{
-  width: 200px;
-  height: 200px;
-  border: 2px solid black; 
-  background-color: #eb7132;
-  margin: 10px 10px 10px 10px;
-
-} */
 .con {
   display: flex;
   justify-content: center;
@@ -134,7 +126,7 @@ width: 700px;
 
 #placeholder {
   align-self: 50%;
-  background-image:url(/Users/44751/Downloads/images/scarecrow.jpg) ;
+  background-image:url('../starter/images/scarecrow.jpg') ;
   background-repeat: no-repeat;
   margin-right: 10px;
   height: 200px;
@@ -149,7 +141,7 @@ width: 700px;
 }
 #prewrk {  
   align-self: auto;
-background-image: url(/Users/44751/Downloads/images/batman-joker-batman-arkham-origins-wallpaper-preview.jpg); 
+background-image: url('../starter/images/batman-joker-batman-arkham-origins-wallpaper-preview.jpg'); 
 background-repeat: no-repeat;
 
 height: 200px;
@@ -165,7 +157,7 @@ background-size:cover;
 }
 #horiseon {
   align-self:50%;
-  background-image: url(/Users/44751/Downloads/images/artworks-jjKFFi3R1gac2jPW-nY0z8A-t500x500.jpg);
+  background-image: url('../starter/images/artworks-jjKFFi3R1gac2jPW-nY0z8A-t500x500.jpg');
   background-repeat: no-repeat;
 height: 200px;
 background-position: center;
