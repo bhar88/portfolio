@@ -1,3 +1,7 @@
+ {
+  box-sizing: border-box;
+
+ }
 
 h1{
 object-position: center; 
@@ -460,7 +464,7 @@ section {
 }
 
 
-@media (min-width: 481px) and (max-width: 767px)and (orientation: portrait){
+@media (min-width: 481px) and (max-width: 767px)and (orientation: portrait);{
   
   
 }
